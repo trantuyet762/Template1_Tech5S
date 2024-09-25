@@ -12,6 +12,10 @@
     .shadow-text-res{
         box-shadow: 0px 8px 16px #E5770959;
     }
+
+    .shadow-protection-icon{
+        box-shadow: 0px 8px 40px #00000026;
+    }
 }
 @layer utilities {
     .line-height-20 {
