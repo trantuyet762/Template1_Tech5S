@@ -1484,6 +1484,10 @@ video {
     margin-top: 48px;
   }
 
+  .lg\:ml-\[200px\] {
+    margin-left: 200px;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1606,6 +1610,14 @@ video {
     height: 80px;
   }
 
+  .xl\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .xl\:h-\[550px\] {
+    height: 550px;
+  }
+
   .xl\:w-\[200px\] {
     width: 200px;
   }
@@ -1638,8 +1650,20 @@ video {
     width: 100%;
   }
 
+  .xl\:w-\[100px\] {
+    width: 100px;
+  }
+
+  .xl\:w-\[550px\] {
+    width: 550px;
+  }
+
   .xl\:justify-around {
     justify-content: space-around;
+  }
+
+  .xl\:rounded-\[120px\] {
+    border-radius: 120px;
   }
 
   .xl\:text-start {
@@ -1717,6 +1741,10 @@ video {
     margin-top: 48px;
   }
 
+  .\32xl\:ml-\[248px\] {
+    margin-left: 248px;
+  }
+
   .\32xl\:flex {
     display: flex;
   }
@@ -1739,6 +1767,14 @@ video {
 
   .\32xl\:h-\[75px\] {
     height: 75px;
+  }
+
+  .\32xl\:h-\[597px\] {
+    height: 597px;
+  }
+
+  .\32xl\:h-\[770px\] {
+    height: 770px;
   }
 
   .\32xl\:w-\[215px\] {
@@ -1777,6 +1813,18 @@ video {
     width: 100%;
   }
 
+  .\32xl\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .\32xl\:w-\[651px\] {
+    width: 651px;
+  }
+
+  .\32xl\:w-\[720px\] {
+    width: 720px;
+  }
+
   .\32xl\:flex-row {
     flex-direction: row;
   }
@@ -1797,6 +1845,10 @@ video {
     gap: 8px;
   }
 
+  .\32xl\:gap-\[32px\] {
+    gap: 32px;
+  }
+
   .\32xl\:space-x-\[24px\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(24px * var(--tw-space-x-reverse));
@@ -1813,6 +1865,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .\32xl\:rounded-\[160px\] {
+    border-radius: 160px;
   }
 
   .\32xl\:text-start {
@@ -1833,6 +1889,18 @@ video {
 
   .\32xl\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .\32xl\:text-\[36px\] {
+    font-size: 36px;
+  }
+
+  .\32xl\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .\32xl\:text-\[30px\] {
+    font-size: 30px;
   }
 
   .\32xl\:leading-\[48px\] {
@@ -1896,5 +1964,21 @@ video {
   .\33xl\:mx-\[256px\] {
     margin-left: 256px;
     margin-right: 256px;
+  }
+
+  .\33xl\:w-\[624px\] {
+    width: 624px;
+  }
+
+  .\33xl\:w-\[120px\] {
+    width: 120px;
+  }
+
+  .\33xl\:w-\[648px\] {
+    width: 648px;
+  }
+
+  .\33xl\:text-\[38px\] {
+    font-size: 38px;
   }
 }
